@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.team.demo.boot_01.mapper.UserMapper">
+
+    <select id="selectAllUser" resultType="com.team.demo.boot_01.model.User">
+        select * from user
+    </select>
+
+    <update id="updateByPrimarykey" >
+        update user set
+    </update>
+
+
+
+</mapper>
